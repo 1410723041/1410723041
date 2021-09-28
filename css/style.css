@@ -1,12 +1,17 @@
 
 body {
 	margin: 0 auto;
-	width: 800px;
+	width: 500px;
 	padding: 0;
 	background: #dddddd url('../Shared%20Documents/images/body_bg.gif') repeat-x top;
 	font-family: Helvetica, sans-serif;
 	font-size: 62.5%;
-	color: #333;
+	color: rgb(14, 14, 14);
+}
+
+h1{
+ font-size: 2em;
+
 }
 
 #menu{
