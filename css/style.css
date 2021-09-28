@@ -13,6 +13,11 @@ h1{
  font-size: 350%;;
 }
 
+h1,h2{
+line-height: 10%;
+
+}
+
 #menu{
     border: rgb(19, 17, 17) 1px solid;
     display: inline-block;
