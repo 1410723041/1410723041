@@ -9,18 +9,18 @@ body {
 	color: #333;
 }
 
-u1.down-menu{
+ul#down-menu{
     border: rgb(19, 17, 17) 1px solid;
     display: inline-block;
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 13px;
 }
-u1.down-menu li{
+ul#down-menu li{
     position: relative;
     white-space: nowrap;
     border-right: rgb(136, 59, 59) 1px solid;
 }
-u1.down-menu a{
+ul#down-menu a{
 
     background-color: rgb(41, 36, 36);
     color: #333;
