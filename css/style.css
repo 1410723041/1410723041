@@ -9,7 +9,7 @@ body {
 	color: #333;
 }
 
-ul#down-menu{
+#menu{
     border: rgb(19, 17, 17) 1px solid;
     display: inline-block;
     font-family: 'Open Sans', Arial, sans-serif;
