@@ -1,15 +1,26 @@
-u1.menu{
+
+body {
+	margin: 0 auto;
+	width: 800px;
+	padding: 0;
+	background: #6e0427 url('../Shared%20Documents/images/body_bg.gif') repeat-x top;
+	font-family: Helvetica, sans-serif;
+	font-size: 62.5%;
+	color: #333;
+}
+
+u1.down-menu{
     border: rgb(19, 17, 17) 1px solid;
     display: inline-block;
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 13px;
 }
-u1.menu li{
+u1.down-menu li{
     position: relative;
     white-space: nowrap;
     border-right: rgb(136, 59, 59) 1px solid;
 }
-u1.menu a{
+u1.down-menu a{
 
     background-color: rgb(41, 36, 36);
     color: #333;
