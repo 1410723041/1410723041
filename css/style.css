@@ -9,3 +9,13 @@ u1.li{
     white-space: nowrap;
     border-right: rgb(136, 59, 59) 1px solid;
 }
+u1.a{
+
+    background-color: #fff;
+    color: #333;
+    display: block;
+    padding: 0 30px;
+    text-decoration: none;
+    line-height: 40px;
+
+}
