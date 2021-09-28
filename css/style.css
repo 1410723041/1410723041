@@ -1,17 +1,17 @@
-#menu{
+u1.menu{
     border: rgb(19, 17, 17) 1px solid;
     display: inline-block;
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 13px;
 }
-u1.li{
+u1.menu li{
     position: relative;
     white-space: nowrap;
     border-right: rgb(136, 59, 59) 1px solid;
 }
-u1.a{
+u1.menu a{
 
-    background-color: #fff;
+    background-color: rgb(41, 36, 36);
     color: #333;
     display: block;
     padding: 0 30px;
