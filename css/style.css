@@ -1,50 +1,142 @@
 
+html,body{
+height: 100%;
+}
+
+
+
 body {
-	margin: 0 auto;
-	width: 500px;
+    margin-left: 25%;
+    margin-top: 0px;
+    margin-right: 25%;
+    margin-bottom: 0px;
+
 	padding: 0;
 	background: #dddddd url('../Shared%20Documents/images/body_bg.gif') repeat-x top;
 	font-family: Helvetica, sans-serif;
 	font-size: 62.5%;
 	color: rgb(14, 14, 14);
 }
+#a1{
+height: 150px;
+width: 100%;
+background-color: rgb(184, 243, 243);
+}
+
+
+#link-list li{
+    display: flex;    
+    }
+
+
+#logo h2{
+color: white;
+
+}
 
 h1{
- font-size: 350%;;
+ font-size: 250%;;
 }
 
 h1,h2{
-line-height: 20%;
+line-height: 40%;
 }
 
-h1 a{
-    display:block;  
-    text-indent:101%; 
-    overflow:hidden;  
-    white-space:nowrap; 
-    background:url('images\d8ca6c5ed37db3a6e33950a3dea8ad18.jpg') no-repeat;
-    width: 300px;;
-    height: 200px;;
-  }
-
-#menu{
-    border: rgb(19, 17, 17) 1px solid;
-    display: inline-block;
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 13px;
+#Login{
+    font-size:14px;
+    line-height: 180%
 }
-ul#down-menu li{
-    position: relative;
-    white-space: nowrap;
-    border-right: rgb(136, 59, 59) 1px solid;
-}
-ul#down-menu a{
 
-    background-color: rgb(41, 36, 36);
-    color: #333;
+
+
+#Sidebar{
+
+width: 170px;
+height: 800px;
+float: left;
+
+}
+#titleBar{
+    
+ width: auto;
+ margin-left: 300px;
+
+}
+
+#company{
+
+clear: both;
+width: 280px;
+height: 450px;
+float: left;
+}
+
+
+
+#content{
+
+width: auto;
+margin-left: 300px;
+font-size:17px;
+
+}
+
+
+
+
+.menu{
+    overflow: hidden;
+    background-image: linear-gradient(#555, #111);
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size:16px;
+    justify-content: center;
+}
+
+.menu a {
+
+    float: left;
     display: block;
-    padding: 0 30px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    line-height: 40px;
 
 }
+
+
+.menu a:hover{
+
+    background-color: #ddd;
+    color: black;
+    
+}
+
+
+#footer  {
+   
+   clear: both;
+   position: relative;
+   left: 10px;
+   
+  
+   font-size:14px;
+ text-align: center;
+ height: 100px;
+ color:rgb(255, 255, 255);
+ background-image: linear-gradient(#111, #555);
+}
+
+#footer a{
+
+color: white;
+
+}
+
+
+
+
+
